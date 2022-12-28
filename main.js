@@ -1,6 +1,7 @@
 // element.addEventListener(click, ()))
 //  e / event -> e - > represent elemtn on which event happen
 let acc = document.getElementsByClassName("p");
+let pExplai = document.querySelectorAll(".more");
 let i;
 
 for (i = 0; i < acc.length; i++) {
@@ -9,6 +10,15 @@ for (i = 0; i < acc.length; i++) {
     to highlight the button that controls the panel */
     this.classList.toggle("active");
     this.classList.remove("none");
+
+    // class
+    // pExplai.forEach((el) => {
+    //   el.style.display = "none";
+    // });
+
+    for (let j = 0; j < pExplai.length; j++) {
+      pExplai[j].style.display = "none";
+    }
 
     /* Toggle between hiding and showing the active panel */
     let more = this.nextElementSibling;
