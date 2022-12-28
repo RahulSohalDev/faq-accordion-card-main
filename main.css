@@ -94,7 +94,7 @@ hr {
 @media screen and (max-width: 750px) {
   main {
     display: block;
-    width: 300px;
+    width: 270px;
     top: 55%;
     background-image: url(./images/bg-pattern-mobile.svg);
     background-position: top;
@@ -108,7 +108,7 @@ hr {
     display: none;
   }
   .FAQ {
-    width: 85%;
+    width: 90%;
     margin: 0px auto;
     padding-right: 0px;
     padding-top: 110px;
@@ -120,7 +120,7 @@ hr {
     margin: auto;
     position: absolute;
     left: 43px;
-    top: -96px;
+    top: -87px;
   }
   h1 {
     text-align: center;
