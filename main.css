@@ -96,7 +96,7 @@ hr {
     display: block;
     width: 300px;
     top: 57%;
-    background-image: url("./images/bg-pattern-mobile.svg");
+    background-image: url(./images/bg-pattern-mobile.svg);
     background-position: top;
     background-size: 13pc;
     background-repeat: no-repeat;
