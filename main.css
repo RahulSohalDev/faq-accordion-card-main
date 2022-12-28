@@ -71,9 +71,9 @@ h1 {
 .p:hover {
   color: hsl(14, 88%, 65%);
 }
-/* .more {
+.more {
   display: none;
-} */
+}
 .arrow {
   float: right;
   cursor: pointer;
